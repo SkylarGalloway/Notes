@@ -1,0 +1,24 @@
+~~~
+1) Methods
+  * this method serves same function as "function " in javascript
+2) public static void main(string[] args){
+    ^      ^      ^    ^    ^         ^
+    private|      |  
+           |      |
+           can change
+                  |
+                  |
+                  return thing
+                        |
+                        |
+                        |
+                        name
+                            type
+                                      end?
+  }
+  **public changed to private 
+  **static?
+  **next statement(where void is) is return
+  **next is name(main is)
+  **
+~~~
