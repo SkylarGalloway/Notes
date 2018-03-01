@@ -119,7 +119,43 @@ The book describes this and two other methods of using a loops test to stop the 
 ##### Combining these control structures:
 
 
+		
+~~~
+#### Data Type
+int - numbers 
+long - holds larger number than int
+float -decimal number
+double -decimal number
+boolean-> stores "true" "false"
+char -> stores one charactier (can be 'a' '%')
+	Special Char
+		1)\n -> gives new line
+		2)\t -> gives tab
+		3) \\ -> prints "\"
+		4) '\'' -> prints single quote (')
+		5) '\"' -> prints double quote
+Array
+	1) char[]
+		EXP:
+			char[] firstName;
+			firstName =new
+			char[number of char name;]
+			
+	2) int[] ->stores array of number
+String -stores multiple letters 
 
+
+#### Bringing Data into program
+1) import java.util.Scanner; ((Imports scanner))
+	public class Example
+	{
+		public static void main(String[]args)
+		{
+			ScannerstdIn=
+		}
+	}
+	
+~~~
 
 
 
