@@ -38,6 +38,7 @@ If we are only able to use integers for the above operations, what piece of info
 
 We have a special operator, it is the assignment operator.  This is the operator that removes the top sheet of the stickynote pad and writes a value on the next sheet.  In Java we will use a single equals sign to indicate this.  In your book they use a left pointing arrow in pseudocode to represent this.  You can probably guess that a variable must be on the left side (the sticky note pad we are going to place a value on for later use), and a value of the appropriate type on the right hand side.
 
+
 if all letters in the next lines are integers, is the following valid, why:
   * a = b + c
   	when evaluating the statement above the addition is done first (all of the rules of operand is done) and assignment done last
@@ -48,9 +49,11 @@ if all letters in the next lines are integers, is the following valid, why:
   *** r + s = t * u
   	INVAILD- does not work
 
+
 There are other operators that we will talk about as the class progresses.
 
 ##### testing operators
+
 There are operators that return true or false instead of a numeric value.  Many of these you are already familar with, and most are BINARY (take two operands):
   (1) <     less than
   (2) >     greater than
@@ -67,42 +70,7 @@ Finally our first UNARY operator (meaning it only takes one operand)
   * !     'not' returns false if the operand following it is true, and returns true if that operand is false
   	** Can be used to negate statements 
 		ie: !(a==5) reads as return true for a not equal to 5
-~~~
-#### Data Type
-int - numbers 
-long - holds larger number than int
-float -decimal number
-double -decimal number
-boolean-> stores "true" "false"
-char -> stores one charactier (can be 'a' '%')
-	Special Char
-		1)\n -> gives new line
-		2)\t -> gives tab
-		3) \\ -> prints "\"
-		4) '\'' -> prints single quote (')
-		5) '\"' -> prints double quote
-Array
-	1) char[]
-		EXP:
-			char[] firstName;
-			firstName =new
-			char[number of char name;]
-			
-	2) int[] ->stores array of number
-String -stores multiple letters 
 
-
-#### Bringing Data into program
-1) import java.util.Scanner; ((Imports scanner))
-	public class Example
-	{
-		public static void main(String[]args)
-		{
-			ScannerstdIn=
-		}
-	}
-	
-	~~~
 #### Tracing a program
 This is a skill that helps you track down what is happening during a program to find why it is not giving you the result you expected it to.
 
@@ -113,7 +81,9 @@ We will start by doing this on paper, and as we get towards coding, we will lear
 #### Input and Output
 A computer is a great tool, and it can do a lot.  However if we can't communicate with it, it does us little good.
 
+
 This is just trying to make you aware that we need tha ability to provide informaiton to our programs, and for our programs to provide information back to us if we want the programs to truely be useful.
+
 
 For the sake of flowcharts, you can use the words input and output (print) for these steps.  The book also uses these terms in it's fomalized pseudocode examples.
 
@@ -126,6 +96,8 @@ We can string these above steps together, but we need ways to only do the steps 
   * if - else if       Same as if-else, however only runs the second poriton if the first test if false and a second is true.
   
 How to determine which to use?  Partially practice, and being *lazy*.
+
+
 
 Write out an example of a program that gives an indication of a kid of what they should wear based upon the tempature.
 
@@ -146,7 +118,8 @@ The book describes this and two other methods of using a loops test to stop the 
 
 ##### Combining these control structures:
 
-i
 
-### PSEUDO CODE EXAMPLE IN CLASS 1/24
+
+
+
 
