@@ -1,0 +1,30 @@
+~~~
+FUNCTION STUFF
+
+private static int sum(int[] number)
+
+public = not protected function made availble 
+private =it is protected used within file
+static =??????
+int(or String or char..or void(returns nothing) = tells what the function should return if it is int it will return an interger; void returns nothing
+sum =name of function
+(int[]= type of passed in variable
+numbers = name of passed in variable
+
+Function calling itself?
+  What happens if function calls itself within itself?
+    
+~~~
+
+~~~
+ARRAYS
+
+int[] a;
+a =new int[3];
+a.length= size of the array
+
+
+
+int[] a;= int[] is type of array and {a} is the name of the array
+a =new int[3]=  determines the size of the array
+~~~
