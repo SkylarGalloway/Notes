@@ -1,0 +1,18 @@
+~~~
+recursive function(____)
+  test if at base case
+    return value
+  test if already computed 
+    do recursion 
+~~~
+
+~~~
+To test if we already have thing create an index
+
+Arrary
+  int[] results =new int[5]
+  
+  
+EXAMPLE
+ 
+~~~
