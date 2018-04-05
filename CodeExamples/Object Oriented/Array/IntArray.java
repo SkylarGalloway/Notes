@@ -18,5 +18,6 @@ public class IntArray {
         }
 
         array = tempArray;
+        array[size - 1] = value;
     }
 }
