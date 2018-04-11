@@ -1,0 +1,88 @@
+Point
+
+public class Point {
+
+    public int x;
+    public int y;
+
+    public double distanceTo(Point remotePoint) {
+        double subResult = Math.pow( x-remotePoint.x , 2) + Math.pow( y-remotePoint.y , 2);
+
+        return Math.sqrt( subResult);
+    }
+
+    public static double distanceBetween( Point p1, Point p2) {
+        double subResult = Math.pow( p1.x-p2.x , 2) + Math.pow( p1.y-p2.y , 2);
+
+        return Math.sqrt( subResult);
+    }
+
+    public static double slopeBetween( Point p1, Point p2)
+    {
+        double Result = (p2.y-p1.y)*(1.0) / (p2.x-p1.x)*(1.0);
+        return Result;
+
+    }
+}
+
+
+triangle
+
+import java.util.Scanner;
+
+public class triangle {
+
+    public static void main(String []args) {
+        Scanner SysIn = new Scanner(System.in);
+
+        Point p1, p2, p3;
+
+        Integer x, y;
+        x = SysIn.nextInt();
+        y = SysIn.nextInt();
+
+        p1 = new Point();
+
+        p1.x = x;
+        p1.y = y;
+
+        x = SysIn.nextInt();
+        y = SysIn.nextInt();
+
+        p2 = new Point();
+
+        p2.x = x;
+        p2.y = y;
+
+        x = SysIn.nextInt();
+        y = SysIn.nextInt();
+
+        p3 = new Point();
+
+        p3.x = x;
+        p3.y = y;
+
+
+
+        System.out.println("The points are: ");
+
+        System.out.println("("+ p1.x + "," + p1.y + ")");
+        System.out.println("("+ p2.x + "," + p2.y + ")");
+        System.out.println("("+ p3.x + "," + p3.y + ")");
+
+        System.out.println("The distance between the points is: ");
+        System.out.println( p1.distanceTo(p2) );
+        System.out.println( p1.distanceTo(p3) );
+        System.out.println( p2.distanceTo(p3) );
+
+        System.out.println("The distance between the points is: ");
+        System.out.println( Point.distanceBetween(p1,p2) );
+        System.out.println( Point.distanceBetween(p1,p3) );
+        System.out.println( Point.distanceBetween(p2,p3) );
+
+        System.out.println( "The slopes between the points are: ");
+        System.out.println( Point.slopeBetween(p1,p2) );
+        System.out.println( Point.slopeBetween(p1,p3) );
+        System.out.println( Point.slopeBetween(p2,p3) );
+    }
+}
